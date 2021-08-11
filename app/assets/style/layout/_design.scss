@@ -1,0 +1,13 @@
+// 設計展區塊
+.design-card{
+    padding: 44px 0;
+    @include pad{
+        padding: 80px 0;
+    }
+}
+.design-card-last{
+    margin-bottom: 40px;
+    @include pad{
+        margin-bottom: 60px;
+    }
+}
