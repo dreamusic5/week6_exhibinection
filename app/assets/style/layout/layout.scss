@@ -11,16 +11,41 @@
 
 
 // 猜你也喜歡...欄位
-.recommend-item{
-    img{
-        width: 100%;
-        height: 350px;
-        object-fit: cover;
-    }
-    @include pad{
-        margin-bottom: 36px;
+// .recommend-item{
+//     img{
+//         width: 100%;
+//         height: 350px;
+//         object-fit: cover;
+//     }
+//     @include pad{
+//         margin-bottom: 36px;
+//     }
+// }
+.recommend{
+    .card{
+        @include pad{
+            margin-bottom: 36px;
+        }
     }
 }
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 350px !important; 
+}
+
+.card-img-top {
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+}
+
 
 // 訂閱區塊
 .subscribe{
